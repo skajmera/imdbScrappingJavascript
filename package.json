@@ -1,0 +1,30 @@
+{
+  "name": "testjavascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "fetch": "^1.1.0",
+    "http": "^0.0.1-security",
+    "isomorphic-fetch": "^3.0.0",
+    "jsdom": "^19.0.0",
+    "json2csv": "^5.0.7",
+    "node-fetch": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^13.4.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "superagent": "^7.1.1"
+  }
+}
